@@ -1,0 +1,29 @@
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+
+#define ll long long
+
+#define f() for(ll i=0;i<n;i++)
+
+int main() {
+ios::sync_with_stdio(0);
+cin.tie(0);
+    int t;
+    cin>>t;
+    while(t>0)
+    {
+        int n,x,y;
+        cin>>n>>x>>y;
+        if(x*y>=n)
+        {
+            cout<<"YES"<<endl;
+        }
+        else
+        {
+            cout<<"NO"<<endl;
+        }
+        t--;
+    }
+	return 0;
+}
